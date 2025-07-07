@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+
+# Build output
+/dist
+/build
+/public
+
+# Vite specific
+.vite/
+vite.config.js
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Test coverage and artifacts
+coverage/
+
+# Dependency directories (sometimes you may use this for package managers other than npm/yarn)
+.pnpm/
+.yarn/
+
+# Docker and Dockerfile-related files (if applicable)
+docker-compose.yml
+Dockerfile
+
+# Other project-specific configurations
+*.env.local
+*.env.*.local
+
